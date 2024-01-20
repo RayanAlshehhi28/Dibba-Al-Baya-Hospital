@@ -1,0 +1,175 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="page-hero bg-image overlay-dark" style="background-image: url(../assets/img/bg_image_1.jpeg);">
+    <div class="hero-section">
+        <div class="container text-center wow zoomIn">
+            <span class="subhead">Management System</span>
+            <h1 class="display-4">Dibba Hospital</h1>
+            <a href="#" class="btn btn-primary">Let's Consult</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="bg-light">
+    <div class="page-section py-3 mt-md-n5 custom-index">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card-service wow fadeInUp">
+                        <div class="circle-shape bg-secondary text-white">
+                            <span class="mai-chatbubbles-outline"></span>
+                        </div>
+                        <p><span>Chat</span> with a doctors</p>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card-service wow fadeInUp">
+                        <div class="circle-shape bg-primary text-white">
+                            <span class="mai-shield-checkmark"></span>
+                        </div>
+                        <p><span>Diba</span> Health Center Protection</p>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card-service wow fadeInUp">
+                        <div class="circle-shape bg-accent text-white">
+                            <span class="mai-basket"></span>
+                        </div>
+                        <p><span>Diba</span> Health Center Pharmacy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- .page-section -->
+
+    <div class="page-section pb-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 py-3 wow fadeInUp">
+                    <h1>Brief information</h1>
+                    <p class="text-grey mb-4">
+                        The Directorate of Health Services of Musandam Governorate was established by the ministerial. It supervises the provided health services in the governorate and the affiliated wilayats.
+                        It also strives to achieve quality in therapeutic services to all the users of these services according to the available resources. It also implements a range of health awareness programs to build a health conscious community. 
+                        In providing the services, The directorate depends on the five-year Health plans under the supervision of Ministry of Health. The directorate is supervising more than 5 healthcare facilities that provide the primary health care to patients.
+                        There also are numerous departments focused on Healthcare, Administration or Services.
+                     </p>
+           
+                </div>
+                <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
+                    <div class="img-place custom-img-1">
+                        <img src="https://www.moh.gov.om/documents/19217/121128/Ship/65091a44-9c0d-44e9-8d18-4a7b1e85a424?t=1408798141178" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- .bg-light -->
+</div> <!-- .bg-light -->
+
+
+<div class="page-section bg-light">
+    <div class="container">
+        <h1 class="text-center wow fadeInUp">Latest News</h1>
+        <div class="row mt-5">
+            <div class="col-lg-4 py-2 wow zoomIn">
+                <div class="card-blog">
+                    <div class="header">
+                       
+                        <a href="blog-details.html" class="post-thumb">
+                            <img src="https://pbs.twimg.com/media/ELiOslkWsAE78xZ?format=jpg&name=large" alt="">
+                        </a>
+                    </div>
+                    <div class="body">
+                        <h5 class="post-title">
+                            <a href="https://x.com/DIBBA_Hospital/status/1204869809315418112?s=20" target="_blank">
+                                Empowering Maternal & Fetal Health: Dr. Aisha Al-Shuhia's Workshop in Dibba
+                        </a></h5>
+                        <div class="site-info">
+                            
+                            <span class="mai-time"></span> Dec 12, 2019
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 py-2 wow zoomIn">
+                <div class="card-blog">
+                    <div class="header">
+                       
+                        <a href="blog-details.html" class="post-thumb">
+                            <img src="https://pbs.twimg.com/media/ELDQxpVXYAIVdJm?format=jpg&name=medium" alt="">
+                        </a>
+                    </div>
+                    <div class="body">
+                        <h5 class="post-title"><a href="https://x.com/DIBBA_Hospital/status/1202690661977350144?s=20" target="_blank">Empowering Communities: #SayNoToChronicDiseases Campaign</a></h5>
+                        <div class="site-info">
+                            
+                            <span class="mai-time"></span> Dec 6, 2019
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 py-2 wow zoomIn">
+                <div class="card-blog">
+                    <div class="header">
+                        <div class="post-category">
+                        </div>
+                        <a href="blog-details.html" class="post-thumb">
+                            <img src="../assets/img/blog/blog_3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="body">
+                        <h5 class="post-title"><a href="https://www.medicalnewstoday.com/articles/eating-too-much-sugar">What is the impact of eating too much sugar?</a></h5>
+                        <div class="site-info">
+                          
+                            <span class="mai-time"></span> 12 May 2019
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 text-center mt-4 wow zoomIn">
+ 
+            </div>
+
+        </div>
+    </div>
+</div> <!-- .page-section -->
+
+<div class="page-section">
+    <div class="container">
+        <h1 class="text-center wow fadeInUp">Make an Appointment</h1>
+
+        <form class="main-form" asp-action="MakeAppointment" asp-controller="Home" method="post" enctype="multipart/form-data">
+            <div class="row mt-5 ">
+                <div class="col-12 col-sm-6 py-2 wow fadeInLeft">
+                    <input type="text" class="form-control" placeholder="Full name" name="FullName" required>
+                </div>
+                <div class="col-12 col-sm-6 py-2 wow fadeInRight">
+                    <input type="text" class="form-control" placeholder="Email address.." name="Email" required>
+                </div>
+                <div class="col-12 col-sm-6 py-2 wow fadeInLeft" data-wow-delay="300ms">
+                    <input type="date" class="form-control" name="AppointmentDate" required>
+                </div>
+                <div class="col-12 col-sm-6 py-2 wow fadeInRight" data-wow-delay="300ms">
+                    <select  id="departement" class="custom-select" name="AppointmentType" required>
+                        <option value="general">General Health</option>
+                        <option value="cardiology">Cardiology</option>
+                        <option value="dental">Dental</option>
+                        <option value="neurology">Neurology</option>
+                        <option value="orthopaedics">Orthopaedics</option>
+                    </select>
+                </div>
+                <div class="col-12 py-2 wow fadeInUp" data-wow-delay="300ms">
+                    <input type="text" class="form-control" placeholder="Number.." name="Phone" required>
+                </div>
+                <div class="col-12 py-2 wow fadeInUp" data-wow-delay="300ms">
+                    <textarea  id="message" class="form-control" rows="6" placeholder="Enter message.." name="Message" required></textarea>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary mt-3 wow zoomIn">Submit Request</button>
+        </form>
+    </div>
+</div> <!-- .page-section -->

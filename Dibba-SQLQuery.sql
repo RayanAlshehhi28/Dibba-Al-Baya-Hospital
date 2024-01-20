@@ -1,0 +1,8 @@
+SELECT TOP (1000) [Id]
+      ,[FullName]
+      ,[Email]
+      ,[AppointmentDate]
+      ,[AppointmentType]
+      ,[Phone]
+      ,[Message]
+  FROM [DibaDB].[dbo].[Appointments]
