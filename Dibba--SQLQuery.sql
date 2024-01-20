@@ -1,0 +1,6 @@
+SELECT TOP (1000) [Id]
+      ,[Name]
+      ,[Email]
+      ,[Subject]
+      ,[Message]
+  FROM [DibaDB].[dbo].[Contacts]
